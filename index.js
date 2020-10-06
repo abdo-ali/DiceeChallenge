@@ -9,10 +9,10 @@ document.getElementsByClassName('img2')[0].setAttribute("src","images\\dice" + r
 
 
 if(randomNumber1 > randomNumber2){
-  document.getElementsByTagName('h1')[0].innerText="Player 1 win";
+  document.getElementsByTagName('h1')[0].innerText="Abdo win";
 }else if (randomNumber1 == randomNumber2) {
   document.getElementsByTagName('h1')[0].innerText="Draw";
 
 }else {
-  document.getElementsByTagName('h1')[0].innerText="Player 2 win";
+  document.getElementsByTagName('h1')[0].innerText="Radwa win";
 }
